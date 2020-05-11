@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* auxilia o padding para ser interno */
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e6ecf0;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, Helvetica, sans-serif;
+  /* a fonte com o melhor estilo possivel */
+  text-rendering: optimizeLegibility  !important;
+  -webkit-font-smoothing: antialiased !important;
+}
