@@ -264,3 +264,105 @@ header#main-header .side button{
   border-radius: 15px;
   margin-right: 5px;
 }
+/*------------------timeline--------------------*/
+.wrapper-content .timeline{
+  flex: 1;
+}
+
+/*-----------widgets------------------*/
+.wrapper-content aside.widgets{
+  width: 290px;
+  margin-top: 10px;
+}
+.wrapper-content aside.widgets .widget{
+  background-color: #fff;
+  padding: 15px;
+}
+.wrapper-content aside.widgets .widget .title{
+  display: flex;
+  align-items: baseline;
+}
+.wrapper-content aside.widgets .widget .title strong{
+  font-size: 18px;
+  color: #1f2206;
+}
+.wrapper-content aside.widgets .widget .title a{
+  font-size: 12px;
+  color: #3bb9e3;
+  text-decoration: none;
+  position: relative;
+  padding-left:15px ;
+}
+.wrapper-content aside.widgets .widget .title a::before{
+  content: '';
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #1f2206;
+  position: absolute;
+  top: 6px;
+  left: 4px;
+
+}
+
+.wrapper-content aside.widgets .follow ul{
+  list-style: none;
+  margin-top: 10px;
+} 
+.wrapper-content aside.widgets .follow ul li{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6ecf0;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.wrapper-content aside.widgets .follow ul li:last-child{
+  margin-bottom: 0;
+  padding-bottom:0;
+  border-bottom: 0;
+}
+
+.wrapper-content aside.widgets .follow ul .profile{
+  display: flex;
+  align-items: center;
+}
+.wrapper-content aside.widgets .follow ul li .profile img{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+.wrapper-content aside.widgets .follow ul .profile .info{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-content aside.widgets .follow ul .profile .info strong{
+  font-size: 14px;
+  color: #1f2206;
+}
+.wrapper-content aside.widgets .follow ul .profile .info strong span{
+  font-weight: normal;
+  color: #555555;
+}
+.wrapper-content aside.widgets .follow ul .profile .info button{
+  height: 27px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  width: 91px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3bb9e3;
+  border: 1px solid #3bb9e3;  
+  border-radius: 16px;
+}
+.wrapper-content aside.widgets .follow ul li > a{
+  color: #e6ecf0;
+  text-decoration: none;
+  font-size: 20px;
+}
+
